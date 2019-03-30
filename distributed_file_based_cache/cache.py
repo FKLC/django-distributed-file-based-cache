@@ -1,5 +1,5 @@
 from django.core.cache.backends.filebased import FileBasedCache
-from serviceless_distributor.distributor import Distributor
+from serviceless_distributor import Distributor
 
 
 class DistributedFileBasedCache(FileBasedCache):
